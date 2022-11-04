@@ -1,4 +1,4 @@
-for x in range(10000):
+ for x in range(10000):
 	with open("data.txt","a") as f:
-		f.write(f"{x} line \n")
+		f.write(f"{x} line changes in master \n")
 print("new")
